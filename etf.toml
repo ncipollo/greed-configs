@@ -1,8 +1,8 @@
-interval = 300
+interval = 5
 platform = "alpaca"
 
 [[strategies]]
-name = "ETF"
+name = "VTI"
 
 [strategies.buy]
 for = { stock = "VTI" }
@@ -14,6 +14,9 @@ for = { stock = "VTI" }
 when = { gain_above_percent = 1.2 }
 do = { sell_all = true }
 
+[[strategies]]
+name = "SH"
+
 [strategies.buy]
 for = { stock = "SH" }
 when = { below_median_percent = 1.0 }
@@ -23,6 +26,9 @@ do = { buy_percent = 6 }
 for = { stock = "SH" }
 when = { gain_above_percent = 1.0 }
 do = { sell_all = true }
+
+[[strategies]]
+name = "VEA"
 
 [strategies.buy]
 for = { stock = "VEA" }
@@ -34,6 +40,9 @@ for = { stock = "VEA" }
 when = { gain_above_percent = 0.9 }
 do = { sell_all = true }
 
+[[strategies]]
+name = "VWO"
+
 [strategies.buy]
 for = { stock = "VWO" }
 when = { below_median_percent = 1.1 }
@@ -43,6 +52,9 @@ do = { buy_percent = 15 }
 for = { stock = "VWO" }
 when = { gain_above_percent = 1.25 }
 do = { sell_all = true }
+
+[[strategies]]
+name = "VIG"
 
 [strategies.buy]
 for = { stock = "VIG" }
@@ -54,6 +66,9 @@ for = { stock = "VIG" }
 when = { gain_above_percent = 1.25 }
 do = { sell_all = true }
 
+[[strategies]]
+name = "XLE"
+
 [strategies.buy]
 for = { stock = "XLE" }
 when = { below_median_percent = 1.2 }
@@ -63,6 +78,9 @@ do = { buy_percent = 5 }
 for = { stock = "XLE" }
 when = { gain_above_percent = 0.55 }
 do = { sell_all = true }
+
+[[strategies]]
+name = "VTEB"
 
 [strategies.buy]
 for = { stock = "VTEB" }
@@ -74,6 +92,9 @@ for = { stock = "VTEB" }
 when = { gain_above_percent = 0.3 }
 do = { sell_all = true }
 
+[[strategies]]
+name = "VIXY"
+
 [strategies.buy]
 for = { stock = "VIXY" }
 when = { below_median_percent = 5.0 }
@@ -83,6 +104,9 @@ do = { buy_percent = 3.5 }
 for = { stock = "VIXY" }
 when = { gain_above_percent = 3.2 }
 do = { sell_all = true }
+
+[[strategies]]
+name = "VXX"
 
 [strategies.buy]
 for = { stock = "VXX" }
