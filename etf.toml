@@ -1,0 +1,95 @@
+interval = 300
+platform = "alpaca"
+
+[[strategies]]
+name = "ETF"
+
+[strategies.buy]
+for = { stock = "VTI" }
+when = { below_median_percent = 1.0 }
+do = { buy_percent = 24 }
+
+[strategies.sell]
+for = { stock = "VTI" }
+when = { gain_above_percent = 1.2 }
+do = { sell_all = true }
+
+[strategies.buy]
+for = { stock = "SH" }
+when = { below_median_percent = 1.0 }
+do = { buy_percent = 6 }
+
+[strategies.sell]
+for = { stock = "SH" }
+when = { gain_above_percent = 1.0 }
+do = { sell_all = true }
+
+[strategies.buy]
+for = { stock = "VEA" }
+when = { below_median_percent = 0.9 }
+do = { buy_percent = 20 }
+
+[strategies.sell]
+for = { stock = "VEA" }
+when = { gain_above_percent = 0.9 }
+do = { sell_all = true }
+
+[strategies.buy]
+for = { stock = "VWO" }
+when = { below_median_percent = 1.1 }
+do = { buy_percent = 15 }
+
+[strategies.sell]
+for = { stock = "VWO" }
+when = { gain_above_percent = 1.25 }
+do = { sell_all = true }
+
+[strategies.buy]
+for = { stock = "VIG" }
+when = { below_median_percent = 1.8 }
+do = { buy_percent = 8 }
+
+[strategies.sell]
+for = { stock = "VIG" }
+when = { gain_above_percent = 1.25 }
+do = { sell_all = true }
+
+[strategies.buy]
+for = { stock = "XLE" }
+when = { below_median_percent = 1.2 }
+do = { buy_percent = 5 }
+
+[strategies.sell]
+for = { stock = "XLE" }
+when = { gain_above_percent = 0.55 }
+do = { sell_all = true }
+
+[strategies.buy]
+for = { stock = "VTEB" }
+when = { below_median_percent = 0.5 }
+do = { buy_percent = 15 }
+
+[strategies.sell]
+for = { stock = "VTEB" }
+when = { gain_above_percent = 0.3 }
+do = { sell_all = true }
+
+[strategies.buy]
+for = { stock = "VIXY" }
+when = { below_median_percent = 5.0 }
+do = { buy_percent = 3.5 }
+
+[strategies.sell]
+for = { stock = "VIXY" }
+when = { gain_above_percent = 3.2 }
+do = { sell_all = true }
+
+[strategies.buy]
+for = { stock = "VXX" }
+when = { below_median_percent = 4.9 }
+do = { buy_percent = 3.5 }
+
+[strategies.sell]
+for = { stock = "VXX" }
+when = { gain_above_percent = 3.4 }
+do = { sell_all = true }
