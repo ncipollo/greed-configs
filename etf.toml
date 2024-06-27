@@ -93,25 +93,12 @@ when = { gain_above_percent = 0.3 }
 do = { sell_all = true }
 
 [[strategies]]
-name = "VIXY"
-
-[strategies.buy]
-for = { stock = "VIXY" }
-when = { below_median_percent = 5.0 }
-do = { buy_percent = 3.5 }
-
-[strategies.sell]
-for = { stock = "VIXY" }
-when = { gain_above_percent = 3.2 }
-do = { sell_all = true }
-
-[[strategies]]
 name = "VXX"
 
 [strategies.buy]
 for = { stock = "VXX" }
 when = { below_median_percent = 4.9 }
-do = { buy_percent = 3.5 }
+do = { buy_percent = 7.0 }
 
 [strategies.sell]
 for = { stock = "VXX" }
