@@ -1,0 +1,13 @@
+interval = 5
+platform = "alpaca"
+
+[[strategies]]
+name = "ETFs"
+path = "etf-hold.csv"
+portfolio_percent = 60.0
+
+[[strategies]]
+name = "S&P 500"
+path = "s&p500.csv"
+portfolio_percent = 40.0
+
