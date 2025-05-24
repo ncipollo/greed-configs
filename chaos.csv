@@ -1,0 +1,5 @@
+asset,amount,buy,sell,skip,
+SPY,40,3.0,5.0,FALSE,
+SH,20,3.0,5.0,FALSE,
+VIXY,20,1.0,10.0,FALSE,
+VXX,20,1.0,7.50,FALSE,

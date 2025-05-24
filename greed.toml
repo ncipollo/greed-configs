@@ -1,4 +1,4 @@
-interval = 5
+interval = 2
 platform = "alpaca"
 
 [[tactics]]
@@ -12,5 +12,10 @@ do = { sell_all = true }
 [[strategies]]
 name = "ETFs"
 path = "etf-hold.csv"
-portfolio_percent = 100.0
+portfolio_percent = 70.0
+
+[[strategies]]
+name = "Chaos"
+path = "chaos.csv"
+portfolio_percent = 30.0
 
