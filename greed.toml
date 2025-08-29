@@ -11,11 +11,26 @@ do = { sell_all = true }
 
 [[strategies]]
 name = "ETFs"
-path = "etf-hold.csv"
-portfolio_percent = 70.0
+path = "etf.csv"
+portfolio_percent = 40.0
+
+[[strategies]]
+name = "Tech"
+path = "tech.csv"
+portfolio_percent = 25.0
+
+[[strategies]]
+name = "Dividend"
+path = "dividend.csv"
+portfolio_percent = 20.0
+
+[[strategies]]
+name = "Energy & Minerals"
+path = "energy-minerals.csv"
+portfolio_percent = 10.0
 
 [[strategies]]
 name = "Chaos"
 path = "chaos.csv"
-portfolio_percent = 30.0
+portfolio_percent = 5.0
 
