@@ -6,5 +6,5 @@ name = "Sell off"
 
 [tactics.sell]
 for = { all_other_positions = true }
-when = { gain_above_percent = -30.0 }
+when = { gain_above_percent = -200.0 }
 do = { sell_all = true }
