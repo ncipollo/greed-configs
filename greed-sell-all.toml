@@ -1,0 +1,10 @@
+interval = 2
+platform = "alpaca"
+
+[[tactics]]
+name = "Sell off"
+
+[tactics.sell]
+for = { all_other_positions = true }
+when = { gain_above_percent = -30.0 }
+do = { sell_all = true }
